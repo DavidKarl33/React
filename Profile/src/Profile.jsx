@@ -25,9 +25,9 @@ export default function Profile({ name, email, address, phone, image }) {
       />
       <div style={{ flex: 1 }}>
         <h2>{name}</h2>
-        <p><strong>Email:</strong> {email}</p>
-        <p><strong>Address:</strong> {address}</p>
-        <p><strong>Phone:</strong> {phone}</p>
+        <p>Email: {email}</p>
+        <p>Address: {address}</p>
+        <p>Phone: {phone}</p>
       </div>
     </div>
   );
